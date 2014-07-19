@@ -3,13 +3,12 @@ layout: page
 title: Architecture
 permalink: /architecture/
 ---
-# Architecture
 The Architecture is a system level, logical representation of the DCHBX / OpenHBX components and their relationships.  It illustrates groups of functions and systems in a way that depicts their basic HBX interaction and dependencies.
  
 Figure 1	DCHBX (Healthlink) Architecture
 IMAGE of DCHBX (Healthlink) Architecture embedded here
  
-## DCHBX Architectural Components
+## Architectural Components
 The following is a list and short description of the components in the DCHBX Architecture:
 
 | Component	| Description | 
@@ -41,26 +40,27 @@ The following is a list and short description of the DCAS core components in the
 
 | Component	| Description | 
 | --------- | ----------- |
-| •	DCNet Cloud – Network Infrastructure / Internal Backbone
-•	Business Objects – Business Intelligence / Reporting
-•	Notices - 
-•	ORACLE Identity Management – Single-Sign On
-•	ORACLE Service Bus – Services and Integration
-•	ORACLE B2B Gateway – EDI Support and Integration
-•	Local Hub – Additional Transport
+| DCNet Cloud | Network Infrastructure / Internal Backbone
+| Business Objects | Business Intelligence / Reporting / Notices | 
+| ORACLE Identity Management | Single-Sign On |
+| ORACLE Service Bus | Services and Integration |
+| ORACLE B2B Gateway | EDI Support and Integration |
+| Local Hub | Additional Transport |
 
+### Some commonly-used acronyms 
 •	DHS – Department of Homeland Security
 •	DHHS – Department of Health and Human Services
 •	IRS – Internal Revenue Service
 •	SSA – Social Security Administration
 
-OpenHBX Architectural Components
+## OpenHBX Architectural Components
 The following is a list and short description of the components in the OpenHBX Architecture.  The OpenHBX Architecture fulfills the functions of the specific HBX, such as DCHBX, but leaves the areas “Open” versus specific to a COTS product or other component:
-Component	Description
-Individual Eligibility & Plan Shopping	
-SHOP (Business) Eligibility & Plan Shopping	Small Business Health Option Program (SHOP) manages employers, their employees, eligibility, and plan selection.
-Premium Management Providers	Premium Management Providers (PMP) manage plan premiums, billing, and financials.
-Integration Layer	
-Carrier Integration	
+
+* Component	Description
+* Individual Eligibility & Plan Shopping	
+* SHOP (Business) Eligibility & Plan Shopping	Small Business Health Option Program (SHOP) manages employers, their employees, eligibility, and plan selection.
+* Premium Management Providers	Premium Management Providers (PMP) manage plan premiums, billing, and financials.
+* Integration Layer	
+* Carrier Integration	
 
 <DIAGRAM – Dan’s ACapi Architecture Block Diagram Here>
