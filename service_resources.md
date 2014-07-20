@@ -1,5 +1,8 @@
-# Resources
-The OpenHBX API exposes the following Resources to the client.  Each Resource has an associated set of Operations and Events.  Refer to the Resource specific page for details on Operations and Events associated with a given Resource.1
+---
+layout: default
+title: Service Resources
+---
+The ACApi exposes the following Service Resources to the client.  Each resource has an associated set of Requests, Responses and Events.  Each ACApi Service Resource includes extensive documentation on each of these elements.
 
 | Resource	| Description |
 | --------- | ----------- |

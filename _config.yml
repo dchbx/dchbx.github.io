@@ -1,8 +1,7 @@
 # Site settings
-title: ACApi Documentation
+title: ACApi
 email: dan.thomas@dc.gov
-description: ""
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "The Affordable Care Act API (ACApi) is a flexible IT architecture framework that enables agencies to rapidly establish and extend cost-effective, online health insurance marketplaces for individuals and small businesses"
 baseurl: ""
 url: "http://acapi.dchbx.org"
 twitter_username: danjthomas

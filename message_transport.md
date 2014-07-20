@@ -1,7 +1,8 @@
-# Transport
-
-## Purpose
-The transport layer is the service fulfillment layer of the Integration Layer.  It is built on these components:
+---
+layout: default
+title: Message Transport
+---
+The **Message Transport** integrates [Service Resources]({{site_url}}/service_resources), providing a messaging infrastructure that enables services to communicate with one another.  Services use the Message Transport layer to send asynchronous messages to one another and to publish and subscribe to events.  The ACApi supports the following messaging software:
 
 | Transport Component	| Description |
 | --------------------- | ----------- |
@@ -10,7 +11,7 @@ The transport layer is the service fulfillment layer of the Integration Layer.  
 
 Transport mechanisms and the on-ramps are provided by the following components:
 
-| Transport Component	| On-Ramp / Connector |
+| Transport Component	| Available Interfaces |
 | --------------------- | ------------------- |
 | Oracle Service Bus (OSB)	| HTTP, JMS |
 | RabbitMQ	 | JMS, AMQP |

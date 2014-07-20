@@ -1,4 +1,7 @@
-# Transform Service
+---
+layout: default
+title: Services/Transform
+---
 
 ## Purpose
 The Transform service performs two major tasks – transformation and validation.  The service is used to transform client request payloads and validate the result.  Clients may also elect to use the service to validate without transforming.

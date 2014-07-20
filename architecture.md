@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: Architecture
-permalink: /architecture/
 ---
 The Architecture is a system level, logical representation of the DCHBX / OpenHBX components and their relationships.  It illustrates groups of functions and systems in a way that depicts their basic HBX interaction and dependencies.
  
@@ -47,11 +46,11 @@ The following is a list and short description of the DCAS core components in the
 | ORACLE B2B Gateway | EDI Support and Integration |
 | Local Hub | Additional Transport |
 
-### Some commonly-used acronyms 
-•	DHS – Department of Homeland Security
-•	DHHS – Department of Health and Human Services
-•	IRS – Internal Revenue Service
-•	SSA – Social Security Administration
+### Commonly-used acronyms 
+* DHS – Department of Homeland Security
+* DHHS – Department of Health and Human Services
+* IRS – Internal Revenue Service
+* SSA – Social Security Administration
 
 ## OpenHBX Architectural Components
 The following is a list and short description of the components in the OpenHBX Architecture.  The OpenHBX Architecture fulfills the functions of the specific HBX, such as DCHBX, but leaves the areas “Open” versus specific to a COTS product or other component:

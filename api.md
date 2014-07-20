@@ -1,7 +1,19 @@
-# API
+---
+layout: default
+title: API
+---
+The ACApi offers a flexible framework upon which to build health insurance marketplace technology. The design encourages reuse and extension by applying modern, proven system development principles:
 
-## Purpose
-The actual API provides clients access to the Resource Operation Model and the Resource Event Model.  Resources are the HBX Information Model entities grouped logically to handle operations (requests and responses) and events (notifications).  Some examples of the Resources in the HBX are Individual, Employer, Policy, and Carrier, just to name a few.
+* Convention over configuration
+* Open source tools and systems
+* Test-first development
+* RESTful Web services
+
+Covers individual and SHOP marketplaces.
+
+
+
+Clients access to the Resource Operation Model and the Resource Event Model.  Resources are the HBX Information Model entities grouped logically to handle operations (requests and responses) and events (notifications).  Some examples of the Resources in the HBX are Individual, Employer, Policy, and Carrier, just to name a few.
 
 The API is structured in a RESTful manner yielding a very logical mechanism for creating, reading, updating, and deleting (CRUD operations) information within the OpenHBX.  The API will be exposed through different connectors or endpoints.  The HTTP endpoints we believe will be the most commonly accessed endpoints and the majority of the initial documentation will place focus there.  Other endpoints or connectors offered include JMS and where appropriate, direct AMQP.
 
@@ -30,6 +42,20 @@ The concepts illustrated here borrow heavily from:
 ## Concepts and Conventions
 This section details the concepts and conventions employed in the OpenHBX API design.  The OpenHBX team believes this offers a highly intuitive and consistent approach.
 
+## Message Transport Interface ##
+
+### Requests ###
+
+### Responses ###
+
+### Events ###
+
+## HTTP Interface ##
+
+### Requests/Responses ###
+
+### Events ###
+
 ### URLs
 
 URLs to gain access to the Web API for Resources generally follow this convention:
@@ -49,17 +75,19 @@ The URLs are designed to reference Resources as nouns and use the HTTP verbs to 
 
 | Resource	| POST (Create)	| GET (Read) | PUT (Update) | DELETE (Delete) |
 | --------- | ------------- | ---------- | ------------ | --------------- |
-| /employers |	Create or add a new employer |	List employers	| Update or modify employers |	Delete employers |
-| /employers/id	| Error	 | List a specific employer identified by the id | Update a specific employer identified by the id, if the employer exists, otherwise, error | Delete the specific employer identified by the id, if the employer exists |
+| /employers |	N/A |	List employers	| Update or modify employers |	Delete employers |
+| /employers#by_id	| N/A	 | Return an employer instance identified by the specified identifier | Update a specific employer identified by the id, if the employer exists, otherwise, error | Delete the specific employer identified by the id, if the employer exists |
 | /employers/id/employees | Create or add a new employee to the roster of a specific employer | List the employees on the roster of a specific employer | Update or modify employees of a specific employer | Delete employees for a specific employer |
-| /employers/id/employees/id | Error | List a specific employee on the roster of a specific employer | Update or modify a specific employee of a specific employer	| Delete a specific employee of a specific employer |
+| /employers/id/employees/id | N/A | List a specific employee on the roster of a specific employer | Update or modify a specific employee of a specific employer	| Delete a specific employee of a specific employer |
 
 Developers and users of the ACapi should be able to logically extend this intuitive design and based on the Resources involved, can determine the URL to access the Resource and operation they need to invoke.  The URLs and all aspects will be further defined within specific Resource referenced in the API documentation.  Some basic tenets are as follows:
 
-- URLs should generally be limited to referencing just two layers of Resources, e.g. “/employers/<id>/employees”.  Once an employee or list of employees for a specific employer is obtained, further references can be made to specific employees, if required.
-- One should never have to go below a specific resource more than two layers in any single request or response.
-- Verbs will not generally appear in any base URL
-- The HTTP verbs in the protocol will serve to imply the operations on the Resources
+* URLs should generally be limited to referencing just two layers of Resources, e.g. “/employers/<id>/employees”.  Once an employee or list of employees for a specific employer is obtained, further references can be made to specific employees, if required.
+* One should never have to go below a specific resource more than two layers in any single request or response.
+* Verbs will not generally appear in any base URL
+* The HTTP verbs in the protocol will serve to imply the operations on the Resources
+
+### Parameters ###
 
 The basic design above is meant to greatly simplify the API for the developer and user experience.  Obviously, this approach isn’t complete and there will be a greater complexity required for accessing or operating on most Resources.  Complexity is built in using the HTTP parameters.  For example, accessing a list of active employees for a specific employer, or a list of terminated employees for a specific employer, or specific employees terminated since a specific date might be handled as follows:
 

@@ -1,5 +1,10 @@
-# Resource: Employer
-The Employer Resource encompasses a multitude of Events and Operations specific to Employers.  An Employer is a business entity which is registered in the HBX.  The Employer generally has a roster of Employees, a group of Qualifying Health Plans that they offer to their Employers.  An Employee is an Individual from the OpenHBX perspective, but they are a special type or class of Individual who is associated with an Employer.  An Employee can review, select, and purchase specific, Qualified Health Plans which are offered by their Employer.  Generally, an Employee will select a Qualifying Health Plan offered by their Employer because the Employer can opt to cover any portion of the Employee health plan.  However, an Employee associated with an Employer can, at their discretion, shop for Individual Qualifying Health Plans and chooses one independent of the Employer.  This Resource description focuses on the Events and Operations specific to the Employer-Employee relationship and the elements associated with Employers, Employees, and Qualifying Health Plans.
+---
+layout: default
+title: Resources/Employer
+---
+The **Employer Resource** supports service requests, responses and events associated with both Employers and Employees.  Employers include business entities who qualify for and participate in the HBX Small Business Health Options Program (SHOP) marketplace. Employers include an Employee roster,  elected set of available Qualifying Health Plans (QHPs), and premium payment history, amoung other resources.  
+
+An Employee is an Individual from the OpenHBX perspective, but they are a special type or class of Individual who is associated with an Employer.  An Employee can review, select, and purchase specific, Qualified Health Plans which are offered by their Employer.  Generally, an Employee will select a Qualifying Health Plan offered by their Employer because the Employer can opt to cover any portion of the Employee health plan.  However, an Employee associated with an Employer can, at their discretion, shop for Individual Qualifying Health Plans and chooses one independent of the Employer.  This Resource description focuses on the Events and Operations specific to the Employer-Employee relationship and the elements associated with Employers, Employees, and Qualifying Health Plans.
 
 ## Events
 
