@@ -3,7 +3,10 @@ layout: default
 title: Architecture
 ---
 The Architecture is a system level, logical representation of the DCHBX / OpenHBX components and their relationships.  It illustrates groups of functions and systems in a way that depicts their basic HBX interaction and dependencies.
- 
+
+![ACApi Interface Model](/assets/acapi_interfaces.png)
+
+
 Figure 1	DCHBX (Healthlink) Architecture
 IMAGE of DCHBX (Healthlink) Architecture embedded here
  
