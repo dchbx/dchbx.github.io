@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resources/Employer
+description: Employers are groups that contain employees.  Employers offer open enrollment periods for employees to be able to select Qualifying Health Plans through their employer
 ---
 The **Employer Resource** supports service requests, responses and events associated with both Employers and Employees.  Employers include business entities who qualify for and participate in the HBX Small Business Health Options Program (SHOP) marketplace. Employers include an Employee roster,  elected set of available Qualifying Health Plans (QHPs), and premium payment history, amoung other resources.  
 

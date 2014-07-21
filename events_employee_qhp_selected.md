@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Events/Employee QHP Selected
----# Resource: Employer: Event: Employee Qualifying Health Plan (QHP) Selected
-
+---
 ## Event Name
 employee_qhp_plan_selected
 

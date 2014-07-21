@@ -14,6 +14,7 @@ The following ACApi components are documented:
 | [Information Model](/information_model)	| A relational representation of DCHBX data types – the Resources.  |
 | [Canonical Vocabulary](/canonical_vocabulary) | A complete XSD vocabulary and data contract for ACapi and OpenHBX Resource Operations and Events. |
 | [ACapi](/api)	| Resources, Operations and Events as a Web API and other published endpoint flavors. |
+
 | [Common Services](/common_services)	| Common services supporting the ACapi. |
 | [Governance and Rules](/governance)	| Requirements, constraints, and policies to use the ACapi and Common Services. |
 | [Message Transport](/message_transport)	| DCHBX ACapi Message Oriented Middleware (MOM) layer. |

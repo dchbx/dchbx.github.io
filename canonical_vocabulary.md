@@ -6,13 +6,7 @@ The ACapi utilizes a Canonical Vocabulary (CV).  The CV defines the schema, mess
 
 External systems, clients, and user systems are expected to use the CV when communicating or transacting with the HBX using the ACapi.
 
-## Release History
-
-| Date	| Version	| Author(s)	| Comments | 
-| ----- | --------- | --------- | -------- |
-| TBD	| 1.0	    | DCHBX / ACapi	 | Initial CV Package Release |
-
-## XSD
+## XML Schemas
 CV schemas and descriptions
 
 | XSD	| Description	| 
@@ -30,6 +24,10 @@ CV schemas and descriptions
 | process	| Process and Operation schema.  The process schema will be expanded to manage operations within the OpenHBX. | 
 | vocabulary	| CV information schema. | 
 
+[Canonical Vocabulary project](https://github.com/dchbx/cv)
 
+## Release History
 
-
+| Date	| Version	| Author(s)	| Comments | 
+| ----- | --------- | --------- | -------- |
+| TBD	| 1.0	    | DCHBX / ACapi	 | Initial CV Package Release |
