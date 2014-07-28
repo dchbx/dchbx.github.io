@@ -13,8 +13,8 @@ The Resources provide a logical grouping of the data types.  It is organized by 
 | Application Group	|  Application Group ties together the entities in an enrollment process – Employers, Households, Individuals, Policies, etc. | 
 | Broker	| Qualifying Health Plan sellers representing Carrier provided plans.  Brokers package, bundle, and sell health and dental plans. | 
 | Carrier	| Carriers provide the Qualifying Health Plans offered in the HBX to Individuals and Employers for their Employees. | 
-| EDI Transaction	|  | 
-| EDI Transmission	|  | 
+| EDI Transaction	| Transactions with the Carriers. | 
+| EDI Transmission	| Transmissions to and from the Carriers. | 
 | Elected plan	| The Qualifying Health Plan ultimately selected. | 
 | Eligibility	| Eligibility determines which Qualifying Health Plans and potential assistance for coverage an Individual or Employee is eligible for. | 
 | Employer	| Employers are groups that contain Employees.  Employers offer open enrollment periods for Employees to be able to select Qualifying Health Plans through their Employer.  The Employer Resource encapsulates the Employer Resource as a subset. | 
