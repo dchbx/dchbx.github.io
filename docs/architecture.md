@@ -41,14 +41,15 @@ The following is a list and short description of the DCHBX components:
 | Curam | Intake, Registrations, Enrollment, and Eligibility |
 | Connecture | Plan Shopping and Management (SHOP) |
 |	NFP | Financials, Premium Billing |
+| DCNet Cloud | Network Infrastructure / Internal Backbone |
+| Business Objects and Notices | Business Intelligence, Notices, and Reporting | 
+| Identity Management | Single-Sign On |
+| ORACLE B2B Gateway | EDI and Carrier Integration |
+| ORACLE ESB (Service Bus) | Services and Component Integration |
+| REST API | ACApi - Service Requests and Events |
+| Glue DB | Exchange Operations / Exchange Operations Portal |
 | FDISH | Federal Web Service Gateway:  DHS, DHHS, SSA, IRS |
 | DC Local Hub | DC Service Gateway:  DC DMV, DC DHS |
-| DCNet Cloud | Network Infrastructure / Internal Backbone |
-| Business Objects | Notices and Reporting | 
-| ORACLE Identity Management | Single-Sign On |
-| ORACLE B2B Gateway | EDI and Carrier Integration |
-| ORACLE Service Bus | Services and Integration |
-| ACApi REST API | Exchange Operations |
-| Glue DB | Exchange Operations Portal |
+
 
 
