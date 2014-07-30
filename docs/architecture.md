@@ -21,7 +21,7 @@ HBX functional capabilities are delivered by several referential components.  Im
 | API | Resources - Requests and Events, functions | 
 
 
-The ACApi is designed to be an abstraction layer providing stable mechanisms for these functional components to interact and communicate, even in potential multi-tenant situations.  <Figure 1. below illustrates the District of Columbia HBX (DCAS and DCAS Infrastructure) and Potential Partner (Tenant Systems).  The Tenant Systems components plugged into the OpenHBX representing the functional components, using the ACApi.>
+The ACApi is designed to be an abstraction layer providing stable mechanisms for these functional components to interact and communicate, even in potential multi-tenant situations.  
 
 ![ACApi Architecture](/assets/hapi_architecture.png)
 **Figure 1.  DCHBX (HealthLink) Architecture**
