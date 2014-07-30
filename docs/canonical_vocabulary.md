@@ -24,7 +24,21 @@ CV schemas and descriptions are provided below.  The [Canonical Vocabulary](http
 | premium_payment	| Premium Payment Resource definitions and types. | 
 | premium_statement	| Premium Statement Resource definitions and types. | 
 | process	| Business Process Resource supporting HBX operations definitions and types. | 
-| vocabulary | A schema which includes all dependent schema if a single reference schema is desired. | 
+| vocabulary | A schema which includes all dependent schema if a single reference schema is desired. |
+
+### Common Reference Types
+
+The CV XSD contain several referential base data types which define data types as generic and low level as Name, Address, and Phone types.  These types refer to simply data.  However, there are types critical to using and accessing the ACApi.  These more critical types are enumerated here and this list will grow to include the most critical operationally applicable types in the ACApi:
+
+| Reference Type	| Description and Use | 
+| ----- | --------- | 
+| RequestType	| Base type defining the Resource Request, necessary identifying information, and pertinent response parameters.  Each specific Resource Request will have distinctly specific information in addition to the common elements. | 
+| RequestResponseType | Base type defining elements in a Resource Request response.  |
+| ResponseStatusType | Base type defining elements for response status codes (mapped to HTTP status codes), any pertinent error codes, developer messages, user messages, and other information. |
+| ResponseHeaderType | Base type defining message and correlation identifiers, the originating service, and the response status. |
+| EventType	| Base type defining elements necessary to publish Resource Events. |
+| HBXResourceNameType | Base type defining the Resources in the HBX. |
+| MetaDataType | Base type of descriptive data about the data returned from a service. | 
 
 ## Release History
 
