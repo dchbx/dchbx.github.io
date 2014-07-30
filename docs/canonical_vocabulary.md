@@ -3,13 +3,13 @@ layout: default
 title: Canonical Vocabulary
 ---
 
-# Canonical Vocabulary
+## Canonical Vocabulary
 
 The ACapi utilizes a Canonical Vocabulary (CV).  The CV defines the schema, message content, and structure for the Health Benefit Exchange.  The various CV schemas and data elements describe the Resources and contain the data contract to fulfill Resource Requests and Events.
 
 External systems, clients, and user systems are expected to use the CV when communicating or transacting with the HBX using the ACapi.  One of the [Common Services](/docs/common_services) is a Transform Service which allows a client to create CV from their formats in order to maintain the HBX data contract for services.
 
-## XML Schemas
+### XML Schemas
 CV schemas and descriptions are provided below.  The [Canonical Vocabulary](http://github.com/dchbx/cv) is accessible in a separate project.
 
 | CV XSD	| Description and Use | 
@@ -29,7 +29,7 @@ CV schemas and descriptions are provided below.  The [Canonical Vocabulary](http
 | process	| Business Process Resource supporting HBX operations definitions and types. | 
 | vocabulary | A schema which includes all dependent schema if a single reference schema is desired. |
 
-### Common Reference Types
+#### Common Reference Types
 
 The CV XSD contain several referential base data types which define data types as generic and low level as Name, Address, and Phone types.  These types refer to simply data.  However, there are types critical to using and accessing the ACApi.  These more critical types are enumerated here and this list will grow to include the most critical operationally applicable types in the ACApi:
 
@@ -43,7 +43,7 @@ The CV XSD contain several referential base data types which define data types a
 | HBXResourceNameType | Base type defining the Resources in the HBX. |
 | MetaDataType | Base type of descriptive data about the data returned from a service. | 
 
-## Release History
+### Release History
 
 | Date	| Version	| Author(s)	| Comments | 
 | ----- | --------- | --------- | -------- |

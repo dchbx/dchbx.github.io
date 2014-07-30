@@ -3,7 +3,7 @@ layout: default
 title: Index
 ---
 
-### Welcome to the Affordable Care Act API ###
+## Welcome to the Affordable Care Act API ###
 
 The Affordable Care Act API (ACApi) is a flexible IT framework that enables agencies to rapidly establish and extend cost-effective, online health insurance marketplaces for individuals and small businesses.
 
@@ -26,7 +26,7 @@ The ACApi offers a flexible framework upon which to build health insurance marke
 
 The ACApi broadly covers the scope for the Individual and SHOP (Business) HBX marketplaces.
 
-### Related Projects ###
+## Related Projects
 
 * [GlueDB](#)
 * [EDI](#)
@@ -36,6 +36,6 @@ The ACApi broadly covers the scope for the Individual and SHOP (Business) HBX ma
 * [Premium Billing](#)
 * [Notices and Reporting](#)
 
-### Contributors ###
+## Contributors
 
 * Various
