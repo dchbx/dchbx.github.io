@@ -2,6 +2,9 @@
 layout: default
 title: Canonical Vocabulary
 ---
+
+# Canonical Vocabulary
+
 The ACapi utilizes a Canonical Vocabulary (CV).  The CV defines the schema, message content, and structure for the Health Benefit Exchange.  The various CV schemas and data elements describe the Resources and contain the data contract to fulfill Resource Requests and Events.
 
 External systems, clients, and user systems are expected to use the CV when communicating or transacting with the HBX using the ACapi.  One of the [Common Services](/docs/common_services) is a Transform Service which allows a client to create CV from their formats in order to maintain the HBX data contract for services.

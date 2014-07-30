@@ -2,7 +2,10 @@
 layout: default
 title: Common Services
 ---
-The ACApi utilizes several Common Services to fulfill Resource Operations, publish Resource Events, receive Resource Events, and handle OpenHBX business processing.
+
+# Common Services
+
+The ACApi exposes several Common Services to fulfill Resource Operations, publish Resource Events, receive Resource Events, and handle HBX business processing.
 
 ## Services
 

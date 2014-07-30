@@ -3,9 +3,12 @@ layout: default
 title: Resources/Employer
 description: Employers are groups that contain employees.  Employers offer open enrollment periods for employees to be able to select Qualifying Health Plans through their employer
 ---
+
+# Employer
+
 The **Employer Resource** supports service requests, responses and events associated with both Employers and Employees.  Employers include business entities who qualify for and participate in the HBX Small Business Health Options Program (SHOP) marketplace. Employers include an Employee roster,  elected set of available Qualifying Health Plans (QHPs), and premium payment history, amoung other resources.  
 
-An Employee is an Individual from the OpenHBX perspective, but they are a special type or class of Individual who is associated with an Employer.  An Employee can review, select, and purchase specific, Qualified Health Plans which are offered by their Employer.  Generally, an Employee will select a Qualifying Health Plan offered by their Employer because the Employer can opt to cover any portion of the Employee health plan.  However, an Employee associated with an Employer can, at their discretion, shop for Individual Qualifying Health Plans and chooses one independent of the Employer.  This Resource description focuses on the Events and Operations specific to the Employer-Employee relationship and the elements associated with Employers, Employees, and Qualifying Health Plans.
+An Employee is an Individual in the HBX, however they are a special type or class of Individual who is associated with an Employer.  An Employee can review, select, and purchase specific, Qualified Health Plans which are offered by their Employer.  Generally, an Employee will select a Qualifying Health Plan offered by their Employer because the Employer can opt to cover any portion of the Employee health plan.  However, an Employee associated with an Employer can, at their discretion, shop for Individual Qualifying Health Plans and chooses one independent of the Employer.  This Resource description focuses on the Events and Operations specific to the Employer-Employee relationship and the elements associated with Employers, Employees, and Qualifying Health Plans.
 
 ## Events
 
@@ -47,12 +50,12 @@ This table enumerates the Employer Employee Events.
 | sep_ended	| Employee Special Enrollment Period ended. | 
 | employment_terminated	| Employee was terminated by the Employer. | 
 
-## Operations
+## Requests
 
-### Employer Operations
+### Employer Requests
 This table enumerates the Employer Resource Operations:
 
-| Operation	 | Description / Provides |
+| Request	 | Description / Provides |
 | ---------  | ---------------------- |
 | Base Operation	| Employers – retrieves the list of employers in the HBX. | 
 | id	| Retrieves Employer details for the Employer specified by the id. | 
@@ -77,10 +80,10 @@ This table enumerates the Employer Resource Operations:
 | nfp_get_dashboard_data	| NFP Operation – Get Employer dashboard data. | 
 | nfp_get_customer_statements	| NFP Operation – Get Employer customer (employee) statements. | 	
 
-### Employer Employee Operations
+### Employer Employee Requests
 This table enumerates the Employer Employee Resource Operations:
 
-| Operation	 | Description / Provides |
+| Request	 | Description / Provides |
 | ---------  | ---------------------- |
 | Base Operation	| Employees – retrieves the list of employees associated with this employer in the HBX.	|
 id	| Retrieves Employee details for the Employee specified by the id.	|
