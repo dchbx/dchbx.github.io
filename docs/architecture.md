@@ -24,7 +24,6 @@ HBX functional capabilities are delivered by several referential components.  Im
 The ACApi is designed to be an abstraction layer providing stable mechanisms for these functional components to interact and communicate, even in potential multi-tenant situations.  
 
 ![HBX Reference Architecture](/assets/hbx_reference_architecture.png)
-**HBX Reference Architecture**
 
 ACApi combines an Application Programmable Interface (API) based in Service-oriented Architecture (SOA) principles.  A major key in the ACApi design is the decoupling of business logic from business process.  The SOA nature of the ACApi design allows more flexibility, extensibility, and scalability.  Flexibility is achieved by creating services behind the ACApi abstraction layer, which is exposed to the clients via several protocols.  The same services are rendered but in ways which clients can consume.  Extensibility is offered because new consumers and clients can leverage or tap into the ACApi services, Resource requests, and  Resource events without disrupting other existing business processes.  Scalability is achieved in the horizontal layers of the architecture for loading and throughput.  The architecture can also be distrubuted geographically across layering for fault tolerance and high-availability.
 
@@ -52,7 +51,5 @@ The following is a list and short description of the DCHBX components:
 | DC Local Hub | DC Service Gateway:  DC DMV, DC DHS |
 
 ![DCHBX Architecture](/assets/dchbx_architecture.png)
-**DCHBX Architecture**
 
-
-
+The DCHBX Architecture depicts the components that fulfill the specific functions and roles resident in the HBX Reference Architecture.
