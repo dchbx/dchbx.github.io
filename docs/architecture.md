@@ -52,4 +52,4 @@ The following is a list and short description of the DCHBX components:
 
 ![DCHBX Architecture](/assets/dchbx_architecture.png)
 
-The DCHBX Architecture depicts the components that fulfill the specific functions and roles resident in the HBX Reference Architecture.
+The DCHBX Architecture illustrates the components integrated which fulfill specific HBX functions and roles resident in the HBX Reference Architecture.  The ACApi will allow additional components to be plugged into the architecture as HBX grows and expands.
