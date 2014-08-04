@@ -8,6 +8,7 @@ Defining abstraction layer / hardware backplane.  Not one protocol, not one vend
 Clients access to the Resource Operation Model and the Resource Event Model.  Resources are the HBX Information Model entities grouped logically to handle operations (requests and responses) and events (notifications).  Some examples of the Resources in the HBX are Individual, Employer, Policy, and Carrier, just to name a few.
 
 ![ACApi Interface Model](/assets/acapi_interfaces.png)
+** ACApi Interface Model **
 
 
 ## Multiple Protocols ##
