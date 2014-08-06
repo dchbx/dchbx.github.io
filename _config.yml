@@ -8,8 +8,8 @@ twitter_username: danjthomas
 github_username:  dchbx
 
 collections:
-  - resources:
-    output: true
+  resources:
+  output: true
 
 defaults:
   -
