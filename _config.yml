@@ -7,12 +7,24 @@ url: "http://acapi.dchbx.org"
 twitter_username: danjthomas
 github_username:  dchbx
 
+collections:
+  - resources:
+    output: true
+
 defaults:
   -
     scope:
       path: "docs" # an empty string here means all files in the project
     values:
       layout: "default"
+
+  -
+    scope:
+      path: ""
+      type: "resources"  # Resource collection
+    values:
+      layout: "default"
+
 
 # Build settings
 markdown: redcarpet
