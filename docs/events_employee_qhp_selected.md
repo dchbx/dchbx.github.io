@@ -56,10 +56,12 @@ The event request must contain at least the following request elements:
 | AMQP	     | Message Headers | 
 
 ## Request Payload
-
-    Request Payload
+```
+Request Payload
+```
 
 ## Response Payload
-	
-	Response Payload
+```
+Response Payload
+```
 
