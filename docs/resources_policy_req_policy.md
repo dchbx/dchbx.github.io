@@ -30,7 +30,7 @@ Header elements are common to requests and responses
 | reply_to            | xs:anyURI   | 0..1 | Designated the consumer service urn endpoint where to transmit response |
 | correlation_id      | xs:string   | 0..1 | Attribute to associate the current message with previous message ID or application-specific message |
 
-### Request (*IndividualRequestType*)
+### Request (*PolicyRequestType*)
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | request_name | PolicyRequestNameType | 1..1 | Request type for Policy |
@@ -38,7 +38,7 @@ Header elements are common to requests and responses
 | metadata     | ServiceMetadataType | 0..1 | Metadata associated with the request
 | body         | ServiceBodyType | 0..1 | Optional - PolicyType restriction
 
-### Response (*IndividualResponseType*)
+### Response (*PolicyResponseType*)
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | metadata     | ServiceMetadataType | 0..1 | Metadata associated with the response
