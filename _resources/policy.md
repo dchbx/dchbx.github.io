@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Collection/Resources/Policy
-description: Collection - Resources - Policy
+title: Policy
+description: Policy is a grouping that binds a set of Resources together under a session or key within the HBX.
 ---
 
 ## Content ##
