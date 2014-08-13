@@ -44,9 +44,7 @@ collection_name = {{ q.collection }}<br>
 
 | Resource	| Description |
 | --------- | ----------- |
-{% for q in site.resources %}
-| [ {{ q.title }} ]( {{ q.url }} ) | {{ q.description }} |
-{% endfor %}
+{% for q in site.resources %} | [ {{ q.title }} ]( {{ q.url }} ) | {{ q.description }} | <br>{% endfor %}
 
 | Resource	| Description |
 | --------- | ----------- |
