@@ -43,15 +43,11 @@ collection_name = {{ q.collection }}<br>
 ### Resource Table ###
 
 | Resource	| Description |
-| --------- | ----------- |
-{% for q in site.resources %} | [ {{ q.title }} ]( {{ q.url }} ) | {{ q.description }} | <br>{% endfor %}
+| --------- | ----------- |{% for q in site.resources %}
+| [{{ q.title }}]({{ q.url }}) | {{ q.description }} | <br>{% endfor %}
 
 | Resource	| Description |
 | --------- | ----------- |
 | [Employer](/docs/resources_employer) | Employers are groups that contain Employees and is specific to the HBX domain SHOP or Business marketplace.  Employers offer open enrollment periods for Employees to be able to select Qualifying Health Plans provided through Carriers and Brokers associated with the Employer.  The Employer Resource accounts for Resource Requests and Events associated with the Employee. | 
 | [Individual](/docs/resources_individual) | An Individual represents the discrete unit of insured in the HBX.  Individuals enroll, determine eligibility, and select plans outside of the Employer/Employee relationship.  The Individual marketplace is distinct from the SHOP/Business marketplace. | 
 | [Policy](/docs/resources_policy) | Policy is a grouping that binds a set of Resources together under a session or key within the HBX. |
-| Broker	| Qualifying Health Plan sellers representing Carrier provided plans.  Brokers package, bundle, and sell health and dental plans. | 
-| Carrier	| Carriers provide the Qualifying Health Plans offered. | 
-| Application Group	|  Application Group ties together the entities in an enrollment process – Employers, Households, Individuals, Policies, etc. | 
-| Household	|  Households are groups that contain Individuals.  Generally there is a primary Individual and Individuals associated in various relationships to the primary Individual. | 
