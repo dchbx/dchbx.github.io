@@ -32,5 +32,10 @@ title: Variables
 
 ## Collection Variables ##
 {% for q in site.resources %}
-  {% if q.title %}<a {% if q.url == page.url %}class="active"{% endif %} href="{{ q.url | prepend: site.baseurl }}">{{ q.title }}</a> |<br> {% endif %}
+### {{ q.title }} ###
+path = {{ q.path }}
+relative_path = {{ q.relative_path }}
+url = {{ q.url }}
+collection_name = {{ q.collection }}
+<p>
 {% endfor %}
