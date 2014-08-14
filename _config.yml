@@ -8,7 +8,7 @@ twitter_username: danjthomas
 github_username:  dchbx
 
 collections:
-    resources:
+  resources:
     output: true
 
 defaults:
@@ -20,7 +20,7 @@ defaults:
 
   -
     scope:
-      path: ""
+      path: "_resources"
       type: "resources"  # Resource collection
     values:
       layout: "default"

@@ -3,8 +3,6 @@ layout: default
 title: Common Services
 ---
 
-## Common Services
-
 The ACApi exposes several Common Services to handle HBX business processing.
 
 ### Services

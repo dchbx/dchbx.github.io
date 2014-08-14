@@ -2,7 +2,8 @@
 layout: default
 title: Message Transport
 ---
-The **Message Transport** integrates [Service Resources]({{site_url}}/service_resources), providing a messaging infrastructure that enables services to communicate with one another.  Services use the Message Transport layer to send asynchronous messages to one another and to publish and subscribe to events.  The ACApi supports the following messaging software:
+
+The Message Transport integrates [Service Resources]({{site_url}}/services_resources), providing a messaging infrastructure that enables services to communicate with one another.  Services use the Message Transport layer to send asynchronous messages to one another and to publish and subscribe to events.  The ACApi supports the following messaging software:
 
 | Transport Component	| Description |
 | --------------------- | ----------- |
