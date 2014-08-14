@@ -16,7 +16,6 @@ collection_name = {{ q.collection }}<br>
 ### Resource Table ###
 
 | Resource	| Description |
-
 | --------- | ----------- |{% for q in site.resources %}
 | [{{ q.title }}]({{ q.url }}) | {{ q.description }} | <br>{% endfor %}
 
