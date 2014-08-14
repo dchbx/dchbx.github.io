@@ -12,4 +12,4 @@ The Resources provide a logical grouping of the data types.  It is organized by 
 
 | Resource	| Description |
 | --------- | ----------- |
-{% for rsrc in site.resources %}| [{{ rsrc.title }}]({{ rsrc.url }}) | {{ rsrc.description }} | <br>{% endfor %}
+{% for r in site.resources %}| [{{ r.title }}]({{ r.url }}) | {{ r.description }} |<br>{% endfor %}
