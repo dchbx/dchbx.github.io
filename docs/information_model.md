@@ -10,8 +10,6 @@ The Resources provide a logical grouping of the data types.  It is organized by 
 ![ACApi Information Model](/assets/acapi_information_model.png)
 **DCHBX Information Model**
 
-### Resource Table ###
-
 | Resource	| Description |
 | --------- | ----------- |
-{% for q in site.resources %}| [{{ q.title }}]({{ q.url }}) | {{ q.description }} | <br>{% endfor %}
+{% for rsrc in site.resources %}| [{{ rsrc.title }}]({{ rsrc.url }}) | {{ rsrc.description }} | <br>{% endfor %}
