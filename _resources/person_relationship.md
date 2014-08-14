@@ -4,5 +4,4 @@ title: Person Relationship Resource
 description: "Person Relationship associates or binds Application Group and Household."
 ---
 
-## Content ##
-Person Relationship Resource
+Project is collaborative.
