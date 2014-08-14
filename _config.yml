@@ -11,6 +11,8 @@ github_username:  dchbx
 collections:
   resources:
     output: true
+  commonservices:
+    output: true
 
 # Defaults
 defaults:
@@ -23,7 +25,14 @@ defaults:
   -
     scope:
       path: "_resources"
-      type: "resources"  # Resource collection
+      type: "resources"  # Resources collection
+    values:
+      layout: "default"
+
+  -
+    scope:
+      path: "_commonservices"
+      type: "commonservices"  # Common Services collection
     values:
       layout: "default"
 
