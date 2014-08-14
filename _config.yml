@@ -7,10 +7,12 @@ url: "http://acapi.dchbx.org"
 twitter_username: danjthomas
 github_username:  dchbx
 
+# Collections
 collections:
   resources:
     output: true
 
+# Defaults
 defaults:
   -
     scope:
