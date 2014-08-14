@@ -5,7 +5,7 @@ title: Common Services
 
 The ACApi exposes several Common Services to handle HBX business processing.
 
-## Services
+### Services
 
 | Service	| Description |
 | --------- | ----------- |
@@ -18,7 +18,7 @@ The ACApi exposes several Common Services to handle HBX business processing.
 | SMS	| SMS / Text functions |
 | SMTP	| Email functions |
 
-## Consumers / Users
+### Consumers / Users
 
 Internal Systems
 - Exchange Ops Database
