@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Plan Resource
+title: "Plan Resource"
 description: "A Qualifying Health Plan."
 ---
 

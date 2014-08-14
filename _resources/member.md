@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Member Resource
+title: "Member Resource"
 description: "A Member is a person which is part of an Application Group.  A Member can be an Individual or an Employee from the HBX perspective."
 ---
 

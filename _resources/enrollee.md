@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Enrollee Resource
+title: "Enrollee Resource"
 description: "A Person enrolled with a Policy in the HBX."
 ---
 

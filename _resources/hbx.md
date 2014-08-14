@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HBX Resource
+title: "HBX Resource"
 description: "HBX is the identifying information for a specific Health Benefits Exchange."
 ---
 
