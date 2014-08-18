@@ -8,7 +8,6 @@ The ACApi exposes several Common Services to handle HBX business processing.
 ### Services
 
 | Service	| Description |
-| --------- | ----------- || Request	 | Description / Provides |
 | --------- | ----------- |{% for q in site.commonservices %}
 | [{{ q.iteratortitle }}]({{ q.url }}) | {{ q.description }} |<br>{% endfor %}
 | Authentication & Authorization | Authentication and Authorization functions |
