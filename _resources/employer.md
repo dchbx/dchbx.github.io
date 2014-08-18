@@ -15,9 +15,8 @@ An Employee is an Individual in the HBX, however they are a special type or clas
 This table enumerates the Employer Resource Operations:
 
 | Request	 | Description / Provides |
-| ---------  | ---------------------- |
-| Base Operation	| Employers – retrieves the list of employers in the HBX. | 
-| id	| Retrieves Employer details for the Employer specified by the id. | 
+| --------- | ----------- |{% for q in site.resourceemployerreq %}
+| [{{ q.iteratortitle }}]({{ q.url }}) | {{ q.description }} |<br>{% endfor %}
 | create	| Creates or registers an Employer.  | 
 | update	| Updates an Employer.  | 
 | delete	| Deletes an Employer.  | 

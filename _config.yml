@@ -12,6 +12,12 @@ collections:
   resources:
     output: true
 
+  resourcesemployerreq:
+    output: true
+
+  resourcesemployerevt:
+    output: true
+
   commonservices:
     output: true
 
@@ -27,6 +33,20 @@ defaults:
     scope:
       path: "_resources"
       type: "resources"  # Resources collection
+    values:
+      layout: "default"
+
+  -
+    scope:
+      path: "_resourcesemployerreq"
+      type: "resourcesemployerreq"  # Employer resource requests collection
+    values:
+      layout: "default"
+
+  -
+    scope:
+      path: "_resourcesemployerevt"
+      type: "resourcesemployerevt"  # Employer resource events collection
     values:
       layout: "default"
 
