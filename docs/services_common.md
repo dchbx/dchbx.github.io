@@ -18,12 +18,3 @@ The ACApi exposes several Common Services to handle HBX business processing.
 | Logging & Error	| Logging & Error functions |
 | SMS	| SMS / Text functions |
 | SMTP	| Email functions |
-
-### Consumers / Users
-
-Internal Systems
-- Exchange Ops Database
-
-External Systems
-- EDI
-

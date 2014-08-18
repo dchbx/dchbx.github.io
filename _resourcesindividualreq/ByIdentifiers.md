@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Resources/Individual Request Individual
+title: "Individual Request by Identifiers"
+description: "Retrieve Individual Details by Specified Identifiers"
+iteratortitle: "By Identifiers"
 ---
 ## Request Name
 Individual Request

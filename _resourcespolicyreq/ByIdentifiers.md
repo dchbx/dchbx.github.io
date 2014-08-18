@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Resources/Policy Request Policy
+title: "Policy Request by Identifiers"
+description: "Retrieve Policy Details by Specified Identifiers"
+iteratortitle: "By Identifiers"
 ---
 ## Request Name
 Policy Request
