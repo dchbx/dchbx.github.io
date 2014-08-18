@@ -26,7 +26,6 @@ Header elements are common to requests and responses
 | ------- | ---- | -------- | ----------- |
 | hbx_id              | xs:string   | 1..1 | CMS-assigned Health Benefit Exchange identifier |
 | submitted_timestamp | xs:dateTime | 1..1 | UTC date and time when event occurred |
-| status              | ServiceStatusType | 1..1 | Service call return status |
 | authorization       | xs:string   | 1..1 | Authentication/authorization credentials |
 | message_id          | xs:string   | 0..1 | Value that uniquely identifies this message |
 | originating_service | xs:anyURI   | 1..1 | The URN of service that posted event |

@@ -34,7 +34,7 @@ Event is published by the HBX plan shopping resource when an employee has select
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | event_name | EmployerEmployeeEventNameType | 1..1 | Event notification type for SHOP employee |
-| qualifying_reason | xs:anyURI | 0..1 |  Reason event generated |
+| qualifying_reason | xs:anyURI | 0..1 |  URN for the regulatory or policy basis enabling this change.  |
 | employer_uri | EmployerType | 1..1 | Employer associated with the Employee
 | enrollmentl_group_uri | EnrollmentGroupType  | 0..N | Employer associated with the Employee |
 | body | ServiceBodyType | 0..1 | Optional - EmployerType restriction

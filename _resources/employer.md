@@ -29,10 +29,10 @@ This table enumerates the Employer Resource Requests:
 | open_enrollment	| Transition the Employer enrollment status to open. | 
 | close_enrollment	| Transition the Employer enrollment status to closed. | 
 | initiate_premium_payment	| Start a premium payment transaction. | 
-| advance_premium_payment	| Advance coverage period. | 
-| reverse_premium_payment	| Debit premium paid balance due to refund, Non-Sufficient Funds (NSF) or other reversal.  | 
+| advance_coverage_period	| Advance coverage period based on payment or transaction. | 
+| reverse_coverage_period	| Reverse coverage period based on refund, Non-Sufficient Funds (NSF) or other reversal condition(s).  | 
 | remit_payment	| Remit Employer contribution payment.   | 
-| binder_premium_payment_amount_due	| Provide total premium amount due for Employer current payment. | 
+| binder_premium_amount_due	| Provide total premium amount due for Employer current payment. | 
 | premium_amount_due	| Retrieve Employer premium amount due.   | 
 | nfp_employer_premium_payment	| NFP Operation – Retrieve Employer premium payment. | 
 | nfp_get_dashboard_data	| NFP Operation – Get Employer dashboard data. | 
