@@ -12,7 +12,7 @@ An Employee is an Individual in the HBX, however they are a special type or clas
 ### Employer Requests and Events
 
 #### Employer Requests
-This table enumerates the Employer Resource Operations:
+This table enumerates the Employer Resource Requests:
 
 | Request	 | Description / Provides |
 | --------- | ----------- |{% for q in site.resourceemployerreq %}
