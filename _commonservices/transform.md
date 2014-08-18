@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Transform Service"
-description: ""
+description: "The Transform service performs transformation and validation.  Primary emphasis is towards Canonical Vocabulary XML Schmema."
 iteratortitle: "Transform"
 ---
 
