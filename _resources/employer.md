@@ -15,7 +15,7 @@ An Employee is an Individual in the HBX, however they are a special type or clas
 This table enumerates the Employer Resource Requests:
 
 | Request	 | Description / Provides |
-| --------- | ----------- |{% for q in site.resourceemployerreq %}
+| --------- | ----------- |{% for q in site.resourcesemployerreq %}
 | [{{ q.iteratortitle }}]({{ q.url }}) | {{ q.description }} |<br>{% endfor %}
 | create	| Creates or registers an Employer.  | 
 | update	| Updates an Employer.  | 
