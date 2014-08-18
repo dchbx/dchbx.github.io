@@ -1,7 +1,8 @@
 ---
 layout: default
 title: "Transform Service"
-description: "The Transform service performs two major tasks – transformation and validation.  The service is used to transform client request payloads and validate the result.  Clients may also elect to use the service to validate without transforming."
+description: ""
+iteratortitle: "Transform"
 ---
 
 ## Purpose
