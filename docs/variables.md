@@ -15,6 +15,12 @@ title: Variables
 | --------- | ----------- |{% for q in site.resourcesemployerreq %}
 | [{{ q.iteratortitle }}]({{ q.url }}) | {{ q.description }} |<br>{% endfor %}
 
+### Employee Events Table from Collection ###
+
+| Resource	| Description |
+| --------- | ----------- |{% for q in site.resourcesemployerevt %}
+| [{{ q.iteratortitle }}]({{ q.url }}) | {{ q.description }} |<br>{% endfor %}
+
 ## Collection Variables ##
 {% for q in site.resources %}
 ### {{ q.title }} ###
