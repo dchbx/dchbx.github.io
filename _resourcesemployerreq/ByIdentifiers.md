@@ -2,7 +2,7 @@
 layout: default
 title: "Employer Request by Identifiers"
 description: "Retrieve Employer Details by Specified Identifiers"
-iteratortitle: "By Identifiers"
+iteratortitle: "by id"
 ---
 ## Request Name
 SHOP Employer Request by Identifiers

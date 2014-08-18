@@ -2,7 +2,7 @@
 layout: default
 title: "Individual Request by Identifiers"
 description: "Retrieve Individual Details by Specified Identifiers"
-iteratortitle: "By Identifiers"
+iteratortitle: "by id"
 ---
 ## Request Name
 Individual Request

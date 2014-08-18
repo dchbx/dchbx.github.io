@@ -55,8 +55,8 @@ This table enumerates the Employer Resource Events:
 | enrollment_closed	| Employer enrollment closes. |
 | carrier_group_assigned	| Employer assigns a group to a carrier. |
 | payment_initiated	| Employer payment contribution is initiated. |
-| payment_advanced	| Employer payment is allocated. |
-| payment_reversed	| Employer payment contribution is remitted. |
+| coverage_period_advanced	| Employer payment is allocated to advance coverage period. |
+| coverage_period_reversed	| Employer payment contribution is remitted for refund, lack of payment, or other reasons which reverses the coverage period. |
 
 ### Employer Employee Requests and Events
 
@@ -66,7 +66,7 @@ This table enumerates the Employer Employee Resource Operations:
 | Request	 | Description / Provides |
 | ---------  | ---------------------- |
 | Base Operation	| Employees – retrieves the list of employees associated with this employer in the HBX.	|
-id	| Retrieves Employee details for the Employee specified by the id.	|
+by identifiers	| Retrieves Employee details for the Employee specified by the id.	|
 create	| Creates or registers an Employee	|
 update	| Updates an Employee.	|
 delete	| Deletes an Employee.	|
@@ -86,11 +86,11 @@ reinstate	| Reinstate 	|
 This table enumerates the Employer Employee Events.
 
 | Event	| Description /Trigger Mechanism |
-| --------------------  | ----------- |
+| --------------------  | ----------- |{% for q in site.resourcesemployerevt %}
+| [{{ q.iteratortitle }}]({{ q.url }}) | {{ q.description }} |<br>{% endfor %}
 | created	| Employee registers or is added to the HBX. | 
 | updated	| Employee updates information to the HBX. | 
-| deleted	| Employee is deleted from the HBX. | 
-| qhp_selected	| Employee has selected a QHP. | 
+| deleted	| Employee is deleted from the HBX. |
 | qhp_withdrawn	| Employee had a QHP withdrawn. | 
 | qhp_effectuated	| Employee has finalized their selected QHP with the Carrier. | 
 | qhp_canceled	| Employee had their QHP canceled by their Employer. | 

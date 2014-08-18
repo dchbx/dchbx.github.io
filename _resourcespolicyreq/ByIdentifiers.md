@@ -2,7 +2,7 @@
 layout: default
 title: "Policy Request by Identifiers"
 description: "Retrieve Policy Details by Specified Identifiers"
-iteratortitle: "By Identifiers"
+iteratortitle: "by id"
 ---
 ## Request Name
 Policy Request
