@@ -19,9 +19,9 @@ ACApi is exposed in several protocols and endpoint connector options.  ACApi is 
 | -------- | ----------- |
 | HTTP	| Web API and web services |
 | JMS	| Pub/Sub and Point-to-Point services | 
-| AMQP	| Transport layer access for AMQP capable clients and client systems | 
+| AMQP	| Transport layer access for AMQP capable clients | 
 
-The ACApi HBX Resource Requests and Events Model are accessible through all of these protocols.  Some of the protocols possess advantages over others.  There are always trade-offs.  The relative advantages and disadvantages are highlighted:
+The ACApi HBX Resource Requests and Events Model are accessible through all of these protocols.  Some of the protocols possess advantages over others.  There are trade-offs and the relative advantages and disadvantages are noted:
 
 | Protocol | Pros | Cons |
 | -------- | ---- | ---- |
@@ -36,33 +36,7 @@ Client integration of the messaging protocol(s), JMS or AMQP, is generally prefe
 * Error Handling, Recovery, and Logging (Transaction Management)
 * Persistance and Durability (Failure Mitigation)
 
-The HTTP protocol integration is likely more common among legacy systems as an existing protocol.  It is provided for easy on-ramp integration reducing the level of effort.
-
-#### HTTP Interface ####
-
-##### Serialization #####
-* XML 
-* SOAP
-* JSON
-
-##### Requests/Responses #####
-
-##### Events #####
-Polling
-
-#### Message Transport Interfaces ####
-
-##### Serialization #####
-* XML
-* SOAP
-
-##### Requests #####
-
-##### Responses #####
-
-##### Events #####
-Pub/Sub
-
+The HTTP protocol integration is more common among legacy systems.  It is provided for easy on-ramp integration reducing the level of effort.
 
 ### Error Handling ###
 Error handling uses HTTP status codes for all protocols.
