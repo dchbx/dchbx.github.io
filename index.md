@@ -10,19 +10,19 @@ The Affordable Care Act API (ACApi) is a flexible IT framework that enables agen
 The ACApi's reusable components support core functions, promote interoperability, and improve performance to help reduce the cost of implementing and operating a Health Benefits Exchange (HBX).  These components include:
 
 * Architecture
-* Information Model
 * Canonical Vocabulary
+* Information Model
 * Interface
 * Resources
 
-The District of Columbia Health Benefits Exchange (DCHBX) is using the ACApi to improve DCHealthLink operation and efficiency.  It also incorporates knowledge gained and lessons learned in a useful form for the benefit and reuse of others.  The DCHBX launched the ACApi project following a condensed development cycle, culminating in an October 1, 2013 go-live of the DCHealthLink site.
+The ACApi is sponsored by the District of Columbia Health Benefit Exchange (DCHBX).  DCHBX's [DCHealthLink](https://dchealthlink.com/) site went live October 1, 2013, along with a number of other State-based Exchanges.  The ACApi organizes knowledge gained and lessons learned during DCHealthLink development into a useful form for the benefit and reuse of others. Today, DCHBX is using the ACApi to improve DCHealthLink system operation and efficiency.  
 
 The ACApi offers a flexible framework upon which to build health insurance marketplace technology.  The design encourages reuse and extension by applying modern, proven, system development principles:
 
-* Convention Over Configuration
-* Open Source Tools and Systems
-* Test-first Development
-* RESTful Web Services
+* Convention over =configuration
+* Open source tools and systems
+* Test-first development
+* RESTful Web services
 
 The ACApi broadly covers the scope for the Individual and SHOP (Business) HBX marketplaces.
 
