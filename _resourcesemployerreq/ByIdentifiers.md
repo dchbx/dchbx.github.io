@@ -4,22 +4,22 @@ title: "Employer Request by Identifiers"
 description: "Retrieve Employer Details by Specified Identifiers"
 iteratortitle: "by id"
 ---
-## Request Name
+### Request Name
 SHOP Employer Request by Identifiers
 
-## Purpose
+### Purpose
 Provide request methods to retrieve SHOP employer information from the HBX.
 
-## Request URN
+### Request URN
 ```
 	urn:openhbx:requests:v1:employers/<primary_key>, or
 	urn:openhbx:requests:v1:employers?hbx_id=<hbx_id>, or
 	urn:openhbx:requests:v1:employers?fein=<fein_id>
 ```
 
-## Message Composition
+### Message Composition
 
-### Header (*ServiceHeaderType*)
+#### Header (*ServiceHeaderType*)
 Header elements are common to requests and responses
 
 | Element | Type | Min..Max | Description |
@@ -32,7 +32,7 @@ Header elements are common to requests and responses
 | reply_to            | xs:anyURI   | 0..1 | Designated the consumer service urn endpoint where to transmit response |
 | correlation_id      | xs:string   | 0..1 | Attribute to associate the current message with previous message ID or application-specific message |
 
-### Request (*EmployerRequestType*)
+#### Request (*EmployerRequestType*)
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | request_name | EmployerRequestNameType | 1..1 | Request type for SHOP employer |
@@ -40,14 +40,14 @@ Header elements are common to requests and responses
 | metadata     | ServiceMetadataType | 0..1 | Metadata associated with the request
 | body         | ServiceBodyType | 0..1 | Optional - EmployerType restriction
 
-### Response (*EmployerResponseType*)
+#### Response (*EmployerResponseType*)
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | metadata     | ServiceMetadataType | 0..1 | Metadata associated with the response
 | body         | ServiceBodyType | 0..1 | Optional - EmployerType restriction
 
 
-## Request
+### Request
 ```
 By Primary Key:
 
@@ -62,7 +62,7 @@ By FEIN:
 	urn:openhbx:requests:v1:employers?fein=123456789
 ```
 
-## Response Payload
+### Response Payload
 ```
 <?xml version="1.0"?>
 <n1:employers xsi:schemaLocation="http://openhbx.org/api/terms/1.0 employer.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://openhbx.org/api/terms/1.0">

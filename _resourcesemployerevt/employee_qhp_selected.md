@@ -4,23 +4,23 @@ title: "Employee Event - QHP Selected"
 description: "Employee has selected a QHP"
 iteratortitle: "QHP Plan Selected"
 ---
-## Event Name
+### Event Name
 Employee QHP Plan Selected
 
-## Event URN
+### Event URN
 ```Ruby
 urn:openhbx:events:v1:employers_employees#qhp_selected
 ```
 
-## Purpose
+### Purpose
 The event notifies subscribers and listeners that an employee has selected a QHP in the HBX
 
 ## Trigger
 Event is published by the HBX plan shopping resource when an employee has selected a QHP in the HBX
 
-## Message Composition
+### Message Composition
 
-### Header
+#### Header
 | Element | Type | Min..Max | Description |
 | ------- | ---- | -------- | ----------- |
 | hbx_id              | xs:string   | 1..1 | CMS-assigned Health Benefit Exchange identifier |
@@ -30,7 +30,7 @@ Event is published by the HBX plan shopping resource when an employee has select
 | originating_service | xs:anyURI   | 1..1 | The URN of service that posted event |
 | correlation_id      | xs:string   | 0..1 | Attribute to associate the current message with previous or application-specific message |
 
-### Event
+#### Event
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | event_name | EmployerEmployeeEventNameType | 1..1 | Event notification type for SHOP employee |
@@ -39,12 +39,12 @@ Event is published by the HBX plan shopping resource when an employee has select
 | enrollmentl_group_uri | EnrollmentGroupType  | 0..N | Employer associated with the Employee |
 | body | ServiceBodyType | 0..1 | Optional - EmployerType restriction
 
-## Request Payload
+### Request Payload
 ```
 Request Payload (to be added)
 ```
 
-## Response Payload
+### Response Payload
 ```
 Response Payload (to be added)
 ```

@@ -4,21 +4,21 @@ title: "Individual Request by Identifiers"
 description: "Retrieve Individual Details by Specified Identifiers"
 iteratortitle: "by id"
 ---
-## Request Name
+### Request Name
 Individual Request
 
-## Purpose
+### Purpose
 Provide request methods to retrieve Individual information from the HBX
 
-## Request URN
+### Request URN
 ```
 	urn:openhbx:requests:v1:people/<primary_key>, or
 	urn:openhbx:requests:v1:people?hbx_id=<hbx_id>
 ```
 
-## Message Composition
+### Message Composition
 
-### Header (*ServiceHeaderType*)
+#### Header (*ServiceHeaderType*)
 Header elements are common to requests and responses
 
 | Element | Type | Min..Max | Description |
@@ -32,7 +32,7 @@ Header elements are common to requests and responses
 | reply_to            | xs:anyURI   | 0..1 | Designated the consumer service urn endpoint where to transmit response |
 | correlation_id      | xs:string   | 0..1 | Attribute to associate the current message with previous message ID or application-specific message |
 
-### Request (*IndividualRequestType*)
+#### Request (*IndividualRequestType*)
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | request_name | EmployerRequestNameType | 1..1 | Request type for Individual |
@@ -40,14 +40,14 @@ Header elements are common to requests and responses
 | metadata     | ServiceMetadataType | 0..1 | Metadata associated with the request
 | body         | ServiceBodyType | 0..1 | Optional - IndividualType restriction
 
-### Response (*IndividualResponseType*)
+#### Response (*IndividualResponseType*)
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | metadata     | ServiceMetadataType | 0..1 | Metadata associated with the response
 | body         | ServiceBodyType | 0..1 | Optional - IndividualType restriction
 
 
-## Request
+### Request
 ```
 By Primary Key:
 
@@ -58,7 +58,7 @@ By HBX ID:
 	urn:openhbx:requests:v1:people?hbx_id=123456
 ```
 
-## Response Payload
+### Response Payload
 ```
 <?xml version="1.0"?>
 <n1:individuals xsi:schemaLocation="http://openhbx.org/api/terms/1.0 individual.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://openhbx.org/api/terms/1.0">
