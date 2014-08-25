@@ -4,21 +4,21 @@ title: "Policy Request by Identifiers"
 description: "Retrieve Policy Details by Specified Identifiers"
 iteratortitle: "by id"
 ---
-## Request Name
+### Request Name
 Policy Request
 
-## Purpose
+### Purpose
 Provide request methods to retrieve Policy information from the HBX
 
-## Request URN
+### Request URN
 ```
 	urn:openhbx:requests:v1:policies/<primary_key>, or
 	urn:openhbx:requests:v1:policies?enrollment_group_id=<enrollment_group_id>
 ```
 
-## Message Composition
+### Message Composition
 
-### Header (*ServiceHeaderType*)
+#### Header (*ServiceHeaderType*)
 Header elements are common to requests and responses
 
 | Element | Type | Min..Max | Description |
@@ -32,7 +32,7 @@ Header elements are common to requests and responses
 | reply_to            | xs:anyURI   | 0..1 | Designated the consumer service urn endpoint where to transmit response |
 | correlation_id      | xs:string   | 0..1 | Attribute to associate the current message with previous message ID or application-specific message |
 
-### Request (*PolicyRequestType*)
+#### Request (*PolicyRequestType*)
 | Element | Type | Min..Max | Description
 | ------- | ---- | -------- | ---------- |
 | request_name | PolicyRequestNameType | 1..1 | Request type for Policy |
@@ -47,7 +47,7 @@ Header elements are common to requests and responses
 | body         | ServiceBodyType | 0..1 | Optional - PolicyType restriction
 
 
-## Request
+### Request
 ```
 By Primary Key:
 
@@ -58,7 +58,7 @@ By Group Enrollment Id:
 	urn:openhbx:requests:v1:policies?enrollment_group_id=<enrollment_group_id>
 ```
 
-## Response Payload
+### Response Payload
 ```
 <?xml version="1.0"?>
 <n1:policy xsi:schemaLocation="http://openhbx.org/api/terms/1.0 policy.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:n1="http://openhbx.org/api/terms/1.0">

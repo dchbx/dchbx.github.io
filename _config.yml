@@ -18,6 +18,13 @@ collections:
   resourcesemployerevt:
     output: true
 
+
+  resourcesindividualreq:
+    output: true
+
+  resourcespolicyreq:
+    output: true
+
   commonservices:
     output: true
 
@@ -47,6 +54,20 @@ defaults:
     scope:
       path: "_resourcesemployerevt"
       type: "resourcesemployerevt"  # Employer resource events collection
+    values:
+      layout: "default"
+
+  -
+    scope:
+      path: "_resourcesindividualreq"
+      type: "resourcesindividualreq"  # Individual resource requests collection
+    values:
+      layout: "default"
+
+  -
+    scope:
+      path: "_resourcespolicyreq"
+      type: "resourcespolicyreq"  # Policy resource requests collection
     values:
       layout: "default"
 
