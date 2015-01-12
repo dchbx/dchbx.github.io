@@ -27,8 +27,9 @@ The returned body is a payload containing the generated identifiers as a JSON ar
 
 #### HTTP Request
 
-	Request Payload
+        GET /sequences/<sequence_name>(?count=<count>)
+        GET /sequences/policy_id?count=4
 
 #### HTTP Response
 
-	Response Payload
+	[188855,188856,188857,188858]
