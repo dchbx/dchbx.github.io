@@ -17,19 +17,38 @@ Clients submit a request to the service with a specified domain namespace and a 
 
 #### Inputs
 
-| Parameter | Encoding | Description |
-| ------ | ----------- | ----- |
-| count | Header | The number of identifiers to generate - defaults to 1. |
-| sequence_name | Header | The domain in which the identifier exists.  Required.  Currently allowed values are: policy_id, member_id. |
+| Parameter | Description |
+| --------- | ----------- |
+| count | The number of identifiers to generate - defaults to 1. |
+| sequence_name | The domain in which the identifier exists.  Required.  Currently allowed values are: policy_id, member_id. |
 	
 #### Outputs
 The returned body is a payload containing the generated identifiers as a JSON array.
 
-#### HTTP Request
+#### HTTP Bindings
+
+| Parameter | Encoding |
+| --------- | -------- |
+| count | query string |
+| sequence_name | URI |
+
+##### HTTP Request
 
         GET /sequences/<sequence_name>(?count=<count>)
         GET /sequences/policy_id?count=4
 
-#### HTTP Response
+##### HTTP Response
 
 	[188855,188856,188857,188858]
+
+#### AMQP Bindings
+
+| Message Property | Value |
+| --- | ----- |
+| Exchange | Request Exchange |
+| Routing Key | sequence.next |
+
+| Parameter | Encoding |
+| --------- | -------- |
+| count | headers |
+| sequence_name | headers |
