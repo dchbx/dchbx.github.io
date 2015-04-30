@@ -20,7 +20,7 @@ Clients submit a request to the service with a specified domain namespace and a 
 | Parameter | Description |
 | --------- | ----------- |
 | count | The number of identifiers to generate - defaults to 1. |
-| sequence_name | The domain in which the identifier exists.  Required.  Currently allowed values are: policy_id, member_id. |
+| sequence_name | The domain in which the identifier exists.  Required.  Currently allowed values are: policy_id, member_id, irs_group_id, e_case_id. |
 	
 #### Outputs
 The returned body is a payload containing the generated identifiers as a JSON array.
