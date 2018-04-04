@@ -1,6 +1,25 @@
 GEM
   remote: https://rubygems.org/
   specs:
+<<<<<<< HEAD
+=======
+    RedCloth (4.2.9)
+    activesupport
+      i18n (~> 0.6, >= 0.6.9)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.1)
+      tzinfo (~> 1.1)
+    blankslate (2.1.2.4)
+    celluloid (0.15.2)
+      timers (~> 1.1.0)
+    classifier (1.3.4)
+      fast-stemmer (>= 1.0.0)
+    coffee-script (2.3.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.7.1)
+>>>>>>> 2f81178b789039bbb5b5d38801d0fca8d37cc96c
     colorator (0.1)
     ffi (1.9.10)
     jekyll (3.0.1)
@@ -29,11 +48,25 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
+<<<<<<< HEAD
     redcarpet (3.3.4)
     rouge (1.10.1)
     safe_yaml (1.0.4)
     sass (3.4.20)
     yajl-ruby (1.2.1)
+=======
+    rdiscount (2.1.7)
+    redcarpet (3.1.2)
+    safe_yaml (1.0.3)
+    sass (3.3.14)
+    thread_safe (0.3.4)
+    timers (1.1.0)
+    toml (0.1.1)
+      parslet (~> 1.5.0)
+    tzinfo (1.2.1)
+      thread_safe (~> 0.1)
+    yajl-ruby
+>>>>>>> 2f81178b789039bbb5b5d38801d0fca8d37cc96c
 
 PLATFORMS
   ruby
